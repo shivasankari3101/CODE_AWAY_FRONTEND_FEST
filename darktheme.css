@@ -21,3 +21,7 @@
 .dark_theme .home{
     background-color: rgba(0,0,0,0.55);
 }
+
+.dark_theme .video{
+    background-color: #333333;
+}
