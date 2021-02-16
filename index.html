@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="toggle_menu"  onclick="theme()">
+        <span class="circle"></span>
+    </div>
     <div class="features_section">
       <div class="feature_1 feature" data-aos="fade-in" data-aos-delay="150">
         <img src="images/Image_1.png" alt="" srcset="" data-aos="fade-left" data-aos-delay="150">
         <div class="desc">
-            <h1>20.1megapixel</h1>
+            <h1>20.1 megapixel</h1>
             <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
         </div>
       </div>
@@ -34,10 +37,28 @@
             <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
         </div>
       </div>
+
+      <div class="feature_3 feature" data-aos="fade-in" data-aos-delay="150">
+        <div class="desc">
+            <h1>Video Recording</h1>
+            <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
+        </div>
+        <iframe class="video"
+         src="https://www.youtube.com/embed/nNxi_Q6g6uc?start=63&autoplay=1&mute=1&controls=0"
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen data-aos="fade-right" data-aos-delay="150" ></iframe>
+        </iframe>
+      </div>
+
+
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+       <script>
+        AOS.init();
+        function theme(){
+            document.body.classList.toggle("dark_theme");
+        }
+       </script>
 </body>
 </html>
