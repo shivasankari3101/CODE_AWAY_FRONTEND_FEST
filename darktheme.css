@@ -1,0 +1,20 @@
+.dark_theme{
+    color: #fff;
+}
+
+.dark_theme .home,
+.dark_theme .features_section,
+.dark_theme .slideshow
+{
+    background-color: #333333;
+}
+.dark_theme .circle{
+    transform: translateX(30px);
+    background-color:rgba(0,0,0,0.3);
+}
+
+.dark_theme .toggle_menu
+{
+    background-color: #fff;
+}
+

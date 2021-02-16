@@ -6,25 +6,35 @@
     <title>FrontEnd Fest</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darktheme.css">
 </head>
 <body>
     <div class="toggle_menu"  onclick="theme()">
         <span class="circle"></span>
+    </div>
+    <div class="home">
+        <div class="desc">
+            <h1>PowerShot G7 X Mark III</h1>
+            <p>The Next Step-Up for Your Everyday Photography</p>
+        </div>
+        <img src="images/Image_4.png" alt="" srcset="">
     </div>
     <div class="features_section">
       <div class="feature_1 feature" data-aos="fade-in" data-aos-delay="150">
         <img src="images/Image_1.png" alt="" srcset="" data-aos="fade-left" data-aos-delay="150">
         <div class="desc">
             <h1>20.1 megapixel</h1>
-            <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
+            <p>Better pixels at even better prices</p>
+            <button class="button">Learn more</button>
         </div>
       </div>
 
 
       <div class="feature_2 feature" data-aos="fade-in" data-aos-delay="150">
         <div class="desc">
-            <h1>Video Recording</h1>
-            <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
+            <h1>DIGIC 8 Image Processor</h1>
+            <p>Capture the real memories</p>
+            <button class="button">Learn more</button>
         </div>
         <img src="images/Image_2.png" alt="" srcset="" data-aos="fade-right" data-aos-delay="150" >        
       </div>
@@ -34,24 +44,49 @@
         <img src="images/Image_3.png" alt="" srcset="" data-aos="fade-left" data-aos-delay="150">
         <div class="desc">
             <h1>4.2x optical zoom</h1>
-            <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
+            <p>Click all you want</p>
+            <button class="button">Learn more</button>
         </div>
       </div>
 
-      <div class="feature_3 feature" data-aos="fade-in" data-aos-delay="150">
+      <div class="feature_4 feature" data-aos="fade-in" data-aos-delay="150">
         <div class="desc">
             <h1>Video Recording</h1>
-            <p>Lorem ipsumjdj gruedc freds ase kuuk  wedff</p>
+            <p>Keep clicking every moment</p>
+            <button class="button">Learn more</button>
         </div>
-        <video class="video" playsinline autoplay muted loop>
+        <video class="video" playsinline autoplay muted loop data-aos="fade-right" data-aos-delay="150">
             <source src="images/video.mp4" type="video/mp4">
             <source src="images/video.ogg" type="video/ogg">
-            Your browser doesn't support video
+            Your browser doesn't support this video
         </video>
+    </div>
+
+    
+    <div class="feature_3 feature" data-aos="fade-in" data-aos-delay="150">
+        <img src="images/Image_1.png" alt="" srcset="" data-aos="fade-left" data-aos-delay="150">
+        <div class="desc">
+            <h1>Buy soon</h1>
+            <p><del>Rs 70,000</del>    Rs.52,995</p>
+            <button class="button">Order Now</button>
+        </div>
       </div>
 
-
     </div>
+    <div class="slideshow" data-aos="fade-in" data-aos-delay="150">
+        <h1>Click everything you want</h1>
+        <div class="gallery">
+            <div class="slide_container">
+                <img src="images/slide_1.jpg" class="slide" alt="" srcset="">
+                <img src="images/slide_2.jpg" class="slide" alt="" srcset="">
+                <img src="images/slide_3.jpg" class="slide" alt="" srcset="">
+                <img src="images/slide_4.jpg" class="slide" alt="" srcset="">
+                <img src="images/slide_5.jpg" class="slide" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
        <script>
         AOS.init();
